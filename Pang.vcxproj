@@ -19,15 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\caja_cc.cpp" />
+    <ClCompile Include="src\coco.cpp" />
+    <ClCompile Include="src\Fantasmico_cc.cpp" />
+    <ClCompile Include="src\Hombre.cpp" />
+    <ClCompile Include="src\interaccion_cc.cpp" />
     <ClCompile Include="src\Mundo.cpp" />
     <ClCompile Include="src\Comecocos.cpp" />
     <ClCompile Include="src\Pared.cpp" />
+    <ClCompile Include="src\personaje.cpp" />
     <ClCompile Include="src\Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\caja_cc.h" />
+    <ClInclude Include="src\coco.h" />
     <ClInclude Include="src\ColorRGB.h" />
+    <ClInclude Include="src\Fantasmico_cc.h" />
+    <ClInclude Include="src\Hombre.h" />
+    <ClInclude Include="src\interaccion_cc.h" />
     <ClInclude Include="src\Mundo.h" />
     <ClInclude Include="src\Pared.h" />
+    <ClInclude Include="src\personaje.h" />
     <ClInclude Include="src\Vector2D.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
